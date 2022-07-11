@@ -1,6 +1,6 @@
 return {
 	override_enabled = true,
-	preset = "SURVIVAL_TOGETHER", 			-- "SURVIVAL_TOGETHER", "MOD_MISSING", "SURVIVAL_TOGETHER_CLASSIC", "SURVIVAL_DEFAULT_PLUS", "COMPLETE_DARKNESS", "DST_CAVE", "DST_CAVE_PLUS"
+	preset = "SURVIVAL_TOGETHER", 		-- "SURVIVAL_TOGETHER", "MOD_MISSING", "SURVIVAL_TOGETHER_CLASSIC", "SURVIVAL_DEFAULT_PLUS", "COMPLETE_DARKNESS", "DST_CAVE", "DST_CAVE_PLUS"
 	overrides = {
 		-- MISC
 		task_set = "default", 			-- "classic", "default", "cave_default"
@@ -9,18 +9,18 @@ return {
 		branching = "default", 			-- "never", "least", "default", "most"
 		loop = "default", 				-- "never", "default", "always"
 		specialevent = "default",       -- "none", "default", "hallowed_nights", "winters_feast", "year_of_the_gobbler"
-		autumn = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
-		winter = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
-		spring = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
-		summer = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
+		autumn = "verylongseason", 		-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
+		winter = "shortseason", 		-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
+		spring = "verylongseason", 		-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
+		summer = "shortseason", 		-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
 		season_start = "default", 		-- "default", "winter", "spring", "summer", "autumnorspring", "winterorsummer", "random"
-		day = "default", 				-- "default", "longday", "longdusk", "longnight", "noday", "nodusk", "nonight", "onlyday", "onlydusk", "onlynight"
+		day = "longday", 				-- "default", "longday", "longdusk", "longnight", "noday", "nodusk", "nonight", "onlyday", "onlydusk", "onlynight"
 		weather = "default", 			-- "never", "rare", "default", "often", "always"
 		earthquakes = "default", 		-- "never", "rare", "default", "often", "always"
 		lightning = "default", 			-- "never", "rare", "default", "often", "always"
 		frograin = "default", 			-- "never", "rare", "default", "often", "always"
-		wildfires = "default", 			-- "never", "rare", "default", "often", "always"
-		regrowth = "default", 			-- "veryslow", "slow", "default", "fast", "veryfast"
+		wildfires = "rare", 			-- "never", "rare", "default", "often", "always"
+		regrowth = "fast",  			-- "veryslow", "slow", "default", "fast", "veryfast"
 		touchstone = "default", 		-- "never", "rare", "default", "often", "always"
 		boons = "default", 				-- "never", "rare", "default", "often", "always"
 		cavelight = "default", 			-- "veryslow", "slow", "default", "fast", "veryfast"
